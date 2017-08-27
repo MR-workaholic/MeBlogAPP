@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+      大致的布局思想是：在大relativelayout下面，有在左边的小relalayout+一个
+      在右边的按键
+	1.android:descendantFocusability：ViewGroup阻止其子View接收焦点
+    2.layout_below：在哪里下面的意思
+    
+--> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@id/newslist_item_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="82.0dip"
+	android:background="@drawable/news_list_item_selector"
+	android:descendantFocusability="blocksDescendants"
+	android:marqueeRepeatLimit="marquee_forever">
+	<RelativeLayout
+		android:id="@id/newslist_item_info_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="82.0dip"
+		android:layout_marginRight="20.0dip"
+		android:layout_alignParentLeft="true">
+		<TextView
+			android:id="@id/newslist_item_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="14.0dip"
+			android:layout_marginTop="4.0dip"
+			android:layout_marginRight="10.0dip"
+			android:layout_alignParentLeft="true"
+			android:textSize="18.0dip"
+			android:textStyle="bold"
+			android:textColor="@drawable/newslist_item_title_selector"
+			android:text="我是title "
+			android:singleLine="true"
+			android:marqueeRepeatLimit="marquee_forever" />
+		<TextView
+			android:id="@id/newslist_item_digest"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/newslist_item_title"
+			android:layout_marginLeft="14.0dip"
+			android:layout_marginTop="2.0dip"
+			android:layout_marginRight="10.0dip"
+			android:textSize="12.0dip"
+			android:textColor="@drawable/newslist_item_digest_selector"
+			android:ellipsize="end"
+			android:text="摘要..."
+			android:lines="2"
+			android:marqueeRepeatLimit="marquee_forever" />
+		<TextView
+			android:id="@id/newslist_item_source"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/newslist_item_digest"
+			android:layout_marginLeft="14.0dip"
+			android:layout_marginRight="10.0dip"
+			android:layout_marginBottom="4.0dip"
+			android:textSize="10.0dip"
+			android:textColor="@drawable/newslist_item_source_selector"
+			android:text="来源："
+			android:marqueeRepeatLimit="marquee_forever" />
+		<TextView
+			android:id="@id/newslist_item_ptime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@id/newslist_item_source"
+			android:layout_marginRight="2.0dip"
+			android:layout_alignParentRight="true"
+			android:textSize="10.0dip"
+			android:textColor="@drawable/newslist_item_source_selector"
+			android:text="5分钟前"
+			android:singleLine="true"
+			android:marqueeRepeatLimit="marquee_forever" />
+	</RelativeLayout>	
+</RelativeLayout>	

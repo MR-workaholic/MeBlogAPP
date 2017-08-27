@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/titlebar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_background1" >
+        <!-- 
+        <TextView
+			android:id="@id/titlebar_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8.0dip"
+			android:layout_marginLeft="15.0dip"
+			android:textAppearance="@style/titlebar_title_style"
+			android:text="@string/app_name"/>
+         -->
+        
+        
+        <Button
+			android:id="@id/titlebar_refresh"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/titlebar_btn_refresh_selector"
+			android:layout_marginTop="7.0dip"               
+			android:layout_marginRight="6.0dip"
+			android:layout_alignParentRight="true"
+			
+			/>
+        <!-- 
+        marginTop是距离上面的位置，因此marginRight是距离右边的位置
+        alignParentRight：是指放在容器的右边
+         -->   
+         
+         <ProgressBar
+			android:id="@id/loadnews_progress"
+			android:layout_width="25.0dip"
+			android:layout_height="25.0dip"
+			android:clickable="false"
+			android:visibility="gone"
+			android:layout_marginRight="20.0dip"
+			android:layout_marginTop="10.0dip"
+			android:layout_alignParentRight="true"
+			style="?android:attr/progressBarStyleLarge" />
+          
+    </RelativeLayout>
+    
+    <RelativeLayout
+		android:id="@id/categorybar_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/categorybar_background2"
+		android:layout_marginTop="-19.0dip"
+		>
+        <!-- 
+        marginTop是距离上面容器的位置      
+         -->  
+         
+         <Button
+			android:id="@id/category_arrow_right"
+			android:layout_width="15dip"
+			android:layout_height="15dip"
+			android:background="@drawable/categorybar_btn_refresh_selector"
+			android:layout_marginRight="30.0dip"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true" />
+         
+         <!-- 
+                 由于图片太小，layout_width与layout_height都需要改   
+          centerVertical 是在容器的垂直线中间
+         --> 
+         
+         <HorizontalScrollView   
+			android:id="@id/category_scrollview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="3.0dip"
+			android:scrollbars="none"
+			android:layout_toLeftOf="@id/category_arrow_right"
+			android:layout_centerVertical="true">
+			<!-- 
+			toLeftOf是指在这个东西的左手边
+			centerVertical 是在容器的垂直线中间
+			scrollbars是什么意思呢？
+			android:layout_marginLeft="3.0dip"有什么用？
+			
+			 -->
+			<RelativeLayout
+				android:id="@id/category_layout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				
+					/>
+			
+		</HorizontalScrollView>	 
+      </RelativeLayout>
+      
+    <ListView 
+		android:id="@+id/news_list" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:listSelector="@drawable/news_list_item_selector"
+		android:cacheColorHint="#00000000" 
+		android:divider="@drawable/list_separator_line"
+		/>
+    
+    <!-- 
+			cacheColorHint：这条的作用是修复一下listview的效果
+			 -->
+
+</LinearLayout>

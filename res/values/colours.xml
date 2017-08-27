@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- 
+    <item type="drawable" name="main_background">#FFDEAD</item>
+     
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="categorybar_right_arrow_selected">#A52A2A</item>
+    <item type="drawable" name="news_list_item_background">#ffe7e7e7</item>
+    <item type="drawable" name="newslist_item_background">#FFE7E7E7</item>
+    <item type="drawable" name="list_selected_background_colour">#708090</item>
+    
+    
+    -->
+    
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="categorybar_right_arrow_selected">#ddf3f5</item>
+    <item type="drawable" name="news_list_item_background">#FFD0CFCC</item>
+    <item type="drawable" name="newslist_item_background">#FFE7E7E7</item>
+    <item type="drawable" name="list_selected_background_colour">#708090</item>
+    <item type="drawable" name="categorybar_background1">#708090</item>
+    
+    
+    
+    
+    
+</resources>  
