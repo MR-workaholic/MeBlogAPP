@@ -48,3 +48,8 @@ captures/
 
 # Eclipse project files
 .settings/
+
+#第一次提交过后再次更改.gitignore并提交
+.classpath
+.project/
+project.properties
