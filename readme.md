@@ -1,14 +1,15 @@
-# ²©¿Í°²×¿¿Í»§¶Ë
-ÕâÊÇÎÒÓÃlaravel´î½¨µÄ²©¿ÍµÄÏàÓ¦°²×¿¿Í»§¶Ë£¬Í¨¹ı¿Í»§¶ËËæÊ±ËæµØ¿´±Ê¼Ç£¬»¹¿ÉÒÔÆÀÂÛÁË£¬ÏÂÃæ¿´¼¸ÕÅ²©¿ÍÍ¼Æ¬¡£
+# åšå®¢å®‰å“å®¢æˆ·ç«¯
+è¿™æ˜¯æˆ‘ç”¨laravelæ­å»ºçš„åšå®¢çš„ç›¸åº”å®‰å“å®¢æˆ·ç«¯ï¼Œé€šè¿‡å®¢æˆ·ç«¯éšæ—¶éšåœ°çœ‹ç¬”è®°ï¼Œè¿˜å¯ä»¥è¯„è®ºäº†ï¼Œä¸‹é¢çœ‹å‡ å¼ åšå®¢å›¾ç‰‡ã€‚
 
-## ÕâÀïÁĞÁ½ÕÅÁĞ±íÒ³£¬¿ÉÒÔÑ¡Ôñ²»Í¬µÄ´óÀà£¬À­µ½µ×»¹ÄÜ¸üĞÂ
- ![ÁĞ±íÒ³1](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/liebiaoye.jpg)
- ![ÁĞ±íÒ³2](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/liebiaoye2.jpg)
+## è¿™é‡Œåˆ—ä¸¤å¼ åˆ—è¡¨é¡µï¼Œå¯ä»¥é€‰æ‹©ä¸åŒçš„å¤§ç±»ï¼Œæ‹‰åˆ°åº•è¿˜èƒ½æ›´æ–°
+ ![åˆ—è¡¨é¡µ1](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/liebiaoye.jpg)
+ ![åˆ—è¡¨é¡µ2](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/liebiaoye2.jpg)
  
-## ¿´¿´ÎÄÕÂµÄÏêÇéÒ³£¬¿ÉÒÔÇĞ»»ÎÄÕÂÄØ
- ![ÎÄÕÂÏêÇéÒ³](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/xiangqingye.jpg)
- ![»¹¿ÉÒÔÀ´»ØÇĞ»»ÎÄÕÂ](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/qiehuan.jpg)
+## çœ‹çœ‹æ–‡ç« çš„è¯¦æƒ…é¡µï¼Œå¯ä»¥åˆ‡æ¢æ–‡ç« å‘¢
+ ![æ–‡ç« è¯¦æƒ…é¡µ](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/xiangqingye.jpg)
+ ![è¿˜å¯ä»¥æ¥å›åˆ‡æ¢æ–‡ç« ](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/qiehuan.jpg)
 
-## ·¢±íÄãµÄÆÀÂÛ
- ![ÆÀÂÛÒ³](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/pinglunye.jpg)
- ![½²³öÄãµÄ¼û½â](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/fabiaopinglun.jpg)
+## å‘è¡¨ä½ çš„è¯„è®º
+ ![è®²å‡ºä½ çš„è§è§£](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/fabiaopinglun.jpg)
+ ![è¯„è®ºé¡µ](https://github.com/MR-workaholic/MeBlogAPP/blob/master/readmepic/pinglunye.jpg)
+ 
